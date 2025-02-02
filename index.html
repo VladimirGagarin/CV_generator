@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Create a professional CV in minutes with our simple CV generator for as low as 100 Ksh. Fast, easy, and affordable!">
+        <title>Simple CV Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    </head>
+    
+<body>
+    <header>
+        <h1>
+            CV Generator
+        </h1>
+
+        <button disabled>Download CV</button>
+    </header>
+
+    <div class="authentication-overlay">
+        <div class="authentication-content">
+            <h2>Welcome to Simple CV Generator</h2>
+            <p>To proceed, please:</p>
+            <h3>Send <strong>100 Ksh</strong> to <span class="phone-number">+254 741 146 031</span></h3>
+            <p>Call <a href="tel:+254741146031" class="phone-numbers">+254 741 146 031</a> for the password to continue</p>
+            <h4><strong>HINT:</strong> <span id="Hint"></span></h4>
+            <div class="pass-code-input">
+                <input type="password" placeholder="Enter password" aria-label="Password">
+                <button disabled>Enter</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="input-overlay">
+        <div class="input-close"><span>&times;</span></div>
+        <div class="input-content">
+            <h3></h3>
+            <div class="controls-inputs">
+                <input type="text" placeholder="type here">
+                 <button disabled>Add</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="success-overlay">
+        <h2>SuccessFully Downloaded</h2>
+    </div>
+
+    <div class="overlay-multiple-inputs">
+        <div class="multiple-close"><span>&times;</span></div>
+        <div class="multiple-content">
+            <h3>Title</h3>
+            <p>Separate each <span></span> with a (#) <button disabled>Done</button></p>
+            <aside class="note">
+                <strong>NB:</strong> type "none" if not available
+            </aside>            
+            <input type="text"  title="write here" placeholder="write here">
+            <div class="list-multiples">
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay-image-display">
+        <div class="overlay-img-close"><span>&times;</span></div>
+        <div class="overlay-img-content">
+            <div class="top">
+                <label for="FileInput">Add a Photo</label>
+                <input type="file" id="FileInput" accept="image/*">
+            </div>
+            <div class="center">
+                <img src="#" alt="user_image">
+            </div>
+            <div class="bottom">
+                <button disabled>ADD</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <h2>Curriculum Vitae</h2>
+
+        <section>
+            <button class="PhotoBtn">Add Image</button>
+            <div class="photo-user">
+                <div class="photo-holder">
+                    <img src="logo.png" alt="Add Photo here">
+                </div>
+                <div class="photo-user-name">
+                    <h3>John Doe</h3>
+                    <p>Painter</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="personal">
+                <h2>Personal Information & Summary</h2>
+                <ul>
+                    <li data-label="Name" data-type-input="text" data-required="single">John Doe</li>
+                    <li data-label="Gender" data-type-input="text" data-required="single">My Gender is...</li>
+                    <li data-label="Nationality" data-type-input="text" data-required="single">Country of Residence</li>
+                    <li data-label="Matrimony" data-type-input="text" data-required="single">Maritial Status</li>
+                    <li data-label="Email" data-type-input="email" data-required="multiple">JohnDoe@gmail.com</li>
+                    <li data-label="Phone" data-type-input="text" data-required="multiple">0000000</li>
+                    <li data-label="Address" data-type-input="text" data-required="multiple">123 Main Street, City, Country</li>
+                    <li data-label="Link" data-type-input="url" data-required="multiple"> www.JohnDoe.com</li>
+                    <li data-label="DOB" data-type-input="date" data-required="single">09/11/2001</li>
+                    <li data-label="Hobbies" data-type-input="text" data-required="multiple">Reading, Traveling, Playing Chess, Ice Skating</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="experiences">
+                <h2>Work Experience, Education, Skills</h2>
+                <ul>
+                    <li data-label="Work" data-type-input="text" data-required="multiple">ABC Company</li>
+                    <li data-label="Education" data-type-input="text" data-required="multiple"> ABC Primary School, ABC High School, ABC University</li>
+                    <li data-label="Skills"data-type-input="text" data-required="multiple">Skating, Cooking, Fishing, Sales Expert</li>
+                    <li data-label="SoftSkills" data-type-input="text" data-required="multiple">
+                        Communication, Leadership, Problem-solving, Teamwork, Adaptability, Time Management
+                    </li>                    
+                    <li data-label="Availability" data-type-input="text" data-required="single">Availability</li>
+                    <li data-label="Relocation" data-type-input="text" data-required="single">relocation openness</li>
+                    <li data-label="Proficiency" data-type-input="text" data-required="multiple">I am proficient in Photoshop</li>
+                </ul>
+            </div>
+
+        </section>
+        <section>
+            <div class="others">
+                <h2>Projects, Certifications, Languages</h2>
+                <ul>
+                    <li data-label="Projects" data-type-input="text" data-required="multiple">Projects:  ABC Projects</li>
+                    <li data-label="Certifications" data-type-input="text" data-required="multiple">Certificates: ABC Feeding Programme xeertificates</li>
+                    <li data-label="Awards" data-type-input="text" data-required="multiple">Awards: ABC fishing Awards</li>
+                    <li data-label="Languages" data-type-input="text" data-required="multiple">Languages: French Russian, Greek</li>
+                    <li data-label="Summary" data-type-input="text" data-required="single">A dedicated professional seeking opportunities to leverage my skills and experience in [specific field].</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="job-seeking">
+                <h2>Reasons for Seeking the Job & Salary Expectations</h2>
+                <ul>
+                    <li data-label="ReasonsForJob" data-type-input="text" data-required="single">
+                        I am seeking this position to further enhance my skills in [specific field] while contributing to a company that values innovation and growth. I am eager to work in an environment that challenges me and allows for career progression.
+                    </li>
+                    <li data-label="CareerObjective" data-type-input="text" data-required="single">
+                        To leverage my skills in [Your Expertise] and contribute to [Company/Industry] while continuously growing in my profession.Thats what i will bringto your  company.
+                    </li>
+                    
+                    <li data-label="SalaryExpectation" data-type-input="text" data-required="single">
+                        My salary expectation is in the range of $X to $Y, depending on the overall compensation package, responsibilities, and growth opportunities.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    
+    </main>
+
+   <div class="overlay-choice-templates">
+    <div class="templates-choice-close"><span>&times;</span></div>
+    <ul>
+        <li>Plain CV</li>
+        <li>CV with image</li>
+    </ul>
+   </div>
+
+    <div class="overlay-templates">
+        <div class="templates-close"><span>&times;</span></div>
+        <!-- Plain Text Template -->
+        <div class="tepmlates plain-text">
+            <div class="top-left">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> <span class="Name"></span></p>
+                <p><strong>Gender:</strong> <span class="Gender"></span></p>
+                <p><strong>Nationality:</strong> <span class="Nationality"></span></p>
+                <p><strong>Marital Status:</strong> <span class="Matrimony"></span></p>
+                <p><strong>D.O.B:</strong> <span class="DOB"></span></p>
+                <p><strong>Email:</strong> <span class="Email"></span></p>
+                <p><strong>Phone:</strong> <span class="Phone"></span></p>
+                <p><strong>Address:</strong> <span class="Address"></span></p>
+                <p><strong>Website:</strong> <span class="Link"></span></p>
+                <p><strong>Hobbies:</strong> <span class="Hobbies"></span></p>
+            </div>            
+            <div class="template-content">
+                <h2>Work Experience, Education, Skills</h2>
+                <p><strong>Work(s)</strong><span class="Work"></span></p>
+                <p><strong>Education</strong><span class="Education"></span></p>
+                <p><strong>Skill(s)</strong><span class="Skills"></span></p>
+                <p><strong>Soft Skill(s)</strong><span class="SoftSkills"></span></p>
+                <p><strong>Availability</strong><span class="Availability"></span></p>
+                <p><strong>Relocation</strong><span class="Relocation"></span></p>
+                <p><strong>Proficiency</strong><span class="Proficiency"></span></p>
+            </div>
+        
+            <div class="template-content">
+                <h2>Projects, Certifications, Languages</h2>
+                <p><strong>Projects</strong><span class="Projects"></span></p>
+                <p><strong>Certifications</strong><span class="Certifications"></span></p>
+                <p><strong>Awards</strong><span class="Awards"></span></p>
+                <p><strong>Languages</strong><span class="Languages"></span></p>
+                <p><strong>Summary(In general)</strong><span class="Summary"></span></p>
+            </div>
+
+            <div class="template-content">
+                <h2>Reasons for Seeking the Job & Salary Expectations</h2>
+                <p><strong>Reasons</strong><span class="ReasonsForJob"></span></p>
+                <p><strong>My Career Objevive</strong><span class="CareerObjective"></span></p>
+                <p><strong>Salary Expectation</strong><span class="SalaryExpectation"></span></p>
+            </div>
+        
+            <div class="button">
+                <button>Download As PDF</button>
+                <button>Download As Text</button>
+            </div>
+        </div>        
+
+        <!-- Styled Templates -->
+        <div class="tepmlates image-template_1">
+            <div class="image-cv">
+                <div class="photo">
+                    <img src="logo.png" alt="">
+                </div>
+            </div>
+
+            <div class="template-content">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> <span class="Name"></span></p>
+                <p><strong>Gender:</strong> <span class="Gender"></span></p>
+                <p><strong>Nationality:</strong> <span class="Nationality"></span></p>
+                <p><strong>Marital Status:</strong> <span class="Matrimony"></span></p>
+                <p><strong>DOB:</strong> <span class="DOB"></span></p>
+                <p><strong>Email:</strong> <span class="Email"></span></p>
+                <p><strong>Phone:</strong> <span class="Phone"></span></p>
+                <p><strong>Address:</strong> <span class="Address"></span></p>
+                <p><strong>Website:</strong> <span class="Link"></span></p>
+                <p><strong>Hobbies:</strong> <span class="Hobbies"></span></p>
+            </div>
+
+            <div class="template-content">
+                <h2>Work Experience, Education, Skills</h2>
+                <p><strong>Work(s)</strong><span class="Work"></span></p>
+                <p><strong>Education</strong><span class="Education"></span></p>
+                <p><strong>Skill(s)</strong><span class="Skills"></span></p>
+                <p><strong>Soft Skill(s)</strong><span class="SoftSkills"></span></p>
+                <p><strong>Availability</strong><span class="Availability"></span></p>
+                <p><strong>Relocation</strong><span class="Relocation"></span></p>
+                <p><strong>Proficiency</strong><span class="Proficiency"></span></p>
+            </div>
+
+            <div class="template-content">
+                <h2>Projects, Certifications, Languages</h2>
+                <p><strong>Projects</strong><span class="Projects"></span></p>
+                <p><strong>Certifications</strong><span class="Certifications"></span></p>
+                <p><strong>Awards</strong><span class="Awards"></span></p>
+                <p><strong>Languages</strong><span class="Languages"></span></p>
+                <p><strong>Summary(In general)</strong><span class="Summary"></span></p>
+            </div>
+
+            <div class="template-content">
+                <h2>Reasons for Seeking the Job & Salary Expectations</h2>
+                <p><strong>Reasons</strong><span class="ReasonsForJob"></span></p>
+                <p><strong>My Career Objevive</strong><span class="CareerObjective"></span></p>
+                <p><strong>Salary Expectation</strong><span class="SalaryExpectation"></span></p>
+            </div>
+
+            <div class="button">
+                <button>Download As PDF</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.5/purify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script> -->
+    
+
+</body>
+</html>

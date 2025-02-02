@@ -1,0 +1,177 @@
+[
+    {
+        "PasswordName": "Veritas",
+        "PasswordUpperCase": true,
+        "PasswordLowerCase": false,
+        "PasswordList": ["Ipsum", "Dolor", "Amet", "Consectetur", "Adipiscing", "Elit", "Vestibulum", "Phasellus", "Tincidunt", "Aliquam"]
+    },
+    {
+        "PasswordName": "Sapientia",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": ["Algorithmus", "Binarius", "Cryptographia", "Data", "Encryptio", "Firewall", "Hashing", "Rete", "Protocolus", "Quantum"]
+    },
+    {
+        "PasswordName": "Natura",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": ["flumen", "mons", "silva", "oceanus", "vallis", "desertum", "pluvia", "aura", "pratum", "glacies"]
+    },
+    {
+        "PasswordName": "Fortitudo",
+        "PasswordUpperCase": true,
+        "PasswordLowerCase":false,
+        "PasswordList": ["Virtus", "Audacia", "Fiducia", "Constantia", "Magnanimitas", "Patientia", "Perseverantia", "Sapientia", "Iustitia", "Honestas"]
+    },
+    {
+        "PasswordName": "Aeternitas",
+        "PasswordUpperCase": true,
+        "PasswordLowerCase": false,
+        "PasswordList": ["Roma", "Imperium", "Senatus", "Gladius", "Legio", "Forum", "Praetor", "Civitas", "Patricius", "Plebis"]
+    },
+    {
+        "PasswordName": "Mythos",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": ["zeus", "poseidon", "hades", "apollo", "ares", "hermes", "hephaestus", "dionysus", "cronus", "helios"]
+    },
+    {
+        "PasswordName": "Socrates",
+        "PasswordUpperCase": true,
+        "PasswordLowerCase": false,
+        "PasswordList": ["Plato", "Aristoteles", "Pythagoras", "Democritus", "Epicurus", "Heraclitus", "Parmenides", "Anaxagoras", "Zeno", "Diogenes"]
+    },
+    {
+        "PasswordName": "Olympus",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": ["athena", "artemis", "aphrodite", "hera", "demeter", "hestia", "persephone", "nike", "nemesis", "eirene"]
+    },
+    {
+        "PasswordName": "Historia",
+        "PasswordUpperCase": true,
+        "PasswordLowerCase": false,
+        "PasswordList": ["Caesar", "Augustus", "Cicero", "Brutus", "Trajanus", "Hadrianus", "Nero", "Tiberius", "Caligula", "Marcus"]
+    },
+    {
+        "PasswordName": "Philosophia",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": ["stoicism", "epicureanism", "cynicism", "hedonism", "skepticism", "neoplatonism", "pyrrhonism", "realism", "idealism", "rationalism"]
+    },
+    {
+        "PasswordName": "Luminis", 
+        "PasswordUpperCase": true, 
+        "PasswordLowerCase": false, 
+        "PasswordList": ["lux", "fulgeo", "splendor", "clarus", "candor", "radiatus", "lucidus", "illuminare", "sol", "stella"]
+    }, 
+    {
+        "PasswordName": "Aurea", 
+        "PasswordUpperCase": false, 
+        "PasswordLowerCase": true, 
+        "PasswordList": ["aurum", "orare", "opulentia", "divitiae", "splendidus", "praestantia", "regalis", "pulcher", "nobilis", "magnificus"]
+    },    
+    {
+        "PasswordName": "Flora", 
+        "PasswordUpperCase": false, 
+        "PasswordLowerCase": true, 
+        "PasswordList": ["malus", "musa", "pyrus", "citrus", "fragaria", "rubus", "prunus", "vitis", "cassis", "citrullus"]
+    }, 
+    {
+        "PasswordName": "Fortuna", 
+        "PasswordUpperCase": true, 
+        "PasswordLowerCase": false, 
+        "PasswordList": ["fortuna", "destinatus", "casus", "audacia", "opportuna", "felicitas", "sortis", "incognita", "aurora", "serendipitas"]
+    }, 
+    {
+        "PasswordName": "Fides", 
+        "PasswordUpperCase": false, 
+        "PasswordLowerCase": true, 
+        "PasswordList": ["honestas", "integritas", "pietas", "clementia", "prudentia", "constantia", "fortitudo", "gratia", "sapientia", "dignitas"]
+    },
+    {
+        "PasswordName": "Medicina", 
+        "PasswordUpperCase": true, 
+        "PasswordLowerCase":false, 
+        "PasswordList": ["cura", "salus", "sanitas", "therapia", "diagnosis", "medicamento", "vigor", "remedium", "hygiene", "vita"]
+    },
+    {
+        "PasswordName": "Platonic", 
+        "PasswordUpperCase": false, 
+        "PasswordLowerCase": true, 
+        "PasswordList": ["pangea", "panthalassa", "idea", "universum", "anima", "metaphysica", "logos", "eidos", "soul", "kosmos"]
+    },
+    {
+        "PasswordName": "Romantikos",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": [
+            "agapi", 
+            "kardia",   
+            "psychi",   
+            "omorfia",  
+            "iliovasima", 
+            "oneiro",   
+            "eleftheria", 
+            "aionio",   
+            "fili",     
+            "elpida"   
+        ]
+    },
+    {
+        "PasswordName": "Philos",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": [
+            "aletheia",   
+            "eudaimonia", 
+            "nous",       
+            "phronesis",   
+            "arete",      
+            "sophia",     
+            "kallos",     
+            "dynamis",    
+            "ethos",      
+            "logos"       
+        ]
+    },
+    {
+        "PasswordName": "Theos",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": [
+            "zeus",      
+            "hera",       
+            "athena",     
+            "apollo",    
+            "poseidon",   
+            "artemis",    
+            "demeter",   
+            "hades",      
+            "aphrodite", 
+            "dionysus"    
+        ]
+    },
+    {
+        "PasswordName": "Goddesses",
+        "PasswordUpperCase": false,
+        "PasswordLowerCase": true,
+        "PasswordList": [
+            "juno",       
+            "pax",        
+            "minerva",    
+            "diana",      
+            "vesta",      
+            "bacchus",    
+            "ceres",      
+            "minerva",    
+            "proserpina", 
+            "libertas"    
+        ]
+    }
+    
+    
+    
+    
+    
+]
